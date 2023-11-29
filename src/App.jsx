@@ -12,7 +12,9 @@ export const App = () => {
   )
 
   async function updateImage() {
-    setDogUrl('https://images.dog.ceo/breeds/hound-english/n02089973_1132.jpg')
+    const res = await fetch('https://dog.ceo/api/breeds/image/random')
+    const url = await res.json()
+    setDogUrl(url.message)
   }
   return (
     <div>
