@@ -16,7 +16,7 @@ export const Description = () => {
     <div>
       <h1 className="title">犬の画像を表示するサイトです!</h1>
       <DogImage imageUrl={dogUrl} />
-      <button className="btn_update" onClick={updateImage}>
+      <button className="btn-update" onClick={updateImage}>
         更新
       </button>
     </div>

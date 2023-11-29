@@ -12,9 +12,9 @@ import DogListContainer from './DogListContainer'
 export const App = () => {
   return (
     <div>
-      <DogListContainer />
       <Header />
       <Description />
+      <DogListContainer />
     </div>
   )
 }
