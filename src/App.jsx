@@ -18,8 +18,8 @@ export const App = () => {
   }
   return (
     <div>
-      <header>Dog App</header>
-      <h1>犬の画像を表示するサイトです!</h1>
+      <header className="header">Dog App</header>
+      <h1 className="title">犬の画像を表示するサイトです!</h1>
       <img src={dogUrl} />
       <button onClick={updateImage}>更新</button>
     </div>
